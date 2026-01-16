@@ -1,0 +1,66 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: #1f2937;
+    color: white;
+    padding: 15px 30px;
+}
+
+/* Container to center card */
+.container {
+    padding: 30px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* min-height: 80vh; */
+     /* center vertically */
+}
+
+/* Card */
+.card {
+    background: white;
+    border: 2px solid #1f2937;
+    padding: 20px 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Card heading */
+.card h3 {
+    margin-top: 0;
+    color: #1f2937;
+}
+
+/* Card paragraph */
+.card p {
+    color: #555;
+}
+
+/* Logout form */
+.logout {
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* Logout button */
+.logout button {
+    background: transparent;
+    border: 2px solid #1f2937;
+    color: #1f2937;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.logout button:hover {
+    background: #1f2937;
+    color: white;
+}
