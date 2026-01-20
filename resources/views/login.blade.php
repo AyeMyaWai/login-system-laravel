@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>ログイン</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -10,7 +10,7 @@
 
 <div class="container d-flex justify-content-center align-items-center vh-100">
     <div class="card shadow-sm p-4" style="max-width: 400px; width: 100%;">
-        <h2 class="card-title text-center mb-4">Login</h2>
+        <h2 class="card-title text-center mb-4">ログイン</h2>
 
  
         @if ($errors->any())
@@ -24,16 +24,16 @@
             @csrf
 
             <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
+                <label for="email" class="form-label">メール</label>
                 <input type="email" name="email" id="email" class="form-control" required>
             </div>
 
             <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
+                <label for="password" class="form-label">パスワード</label>
                 <input type="password" name="password" id="password" class="form-control" required>
             </div>
 
-            <button type="submit" class="btn btn-primary w-100">Login</button>
+            <button type="submit" class="btn btn-primary w-100">ログイン</button>
         </form>
 
       
